@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+* {
+font-family: "Sen", sans-serif;
+}
+
+.bg-primary {
+  background-color: #48db94 !important;
+}
+
+.btn-primary {
+ color: #fff;
+  background-color: #48db94;
+  border-color: #48db94;
+} 
+
+.btn-primary:hover {
+	background-color: #fff;
+	 color: #48db94;
+	 border-color : #48db94;
+}
+
+.text-primary {
+	color: #48db94 !important;
+}
+
+.navbar-light .navbar-nav .nav-link, .nav-item, .navbar-brand, .active {
+    color: white !important;
+}
