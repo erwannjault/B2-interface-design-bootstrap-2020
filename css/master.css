@@ -1,60 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap');
 
 * {
-font-family: "Sen", sans-serif;
+font-family: "Source Sans Pro";
 }
 
 .bg-primary {
-  background-color: #48db94 !important;
+  background-color: #673AB7 !important;
 }
 
 .btn-primary {
  color: #fff;
-  background-color: #48db94;
-  border-color: #48db94;
+  background-color: #FFC107;
+  border-color: #FFC107;
+  text-transform: uppercase;
+  padding: 1rem 2rem ;
 } 
 
 .btn-primary:hover {
-	background-color: #fff;
-	 color: #48db94;
-	 border-color : #48db94;
+	background-color: #FFC107;
+	 color: white;
+	 border-color : #FFC107;
 }
 
 .text-primary {
-	color: #48db94 !important;
+	color: #673AB7 !important;
+}
+
+.navbar-brand {
+  width : 25%;
+}
+
+.navbar-brand img {
+  width: 135%;
 }
 
 .navbar-light .navbar-nav .nav-link, .nav-item, .navbar-brand, .active {
-    color: white !important;
+    color: #673AB7 !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.1rem;
 }
 
-:root {
-  --blue: #48db94;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #48db94;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1020px;
+    }
 }
