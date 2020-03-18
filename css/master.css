@@ -124,6 +124,14 @@ align-items: center;
   width: 60%;
 }
 
+table {border-collapse: separate;
+border-spacing: 0;}
+
+thead tr {
+  background-color:#673AB7;
+  border-radius: 5px 0; 
+}
+
 @media (min-width: 1200px) {
     .container{
         max-width: 1020px;
